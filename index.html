@@ -1,39 +1,47 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/state.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <!-- <link rel="stylesheet" href="css/layout.css"> -->
 </head>
 <body>
     <header>
-         <p>a</p>
+        <div class="a">
+            <p>a</p>
+        </div>
     </header>
     <main>
-        <div><p>b</p></div>
-        <div>
-            <section>
-                <p>c</p>
-                <p>d</p>
-            </section>
-            <section>
-                <div>
-                    <p>e</p>
-                    <p>f</p>
-                </div>
-                <div>
-                    <p>g</p>
-                    <p>h</p>
-                </div>
+        <div class="b"><p>b</p></div>
+        <section>
+            <!-- <section id="cdCon"> -->
+                <div class="c"><p>c</p></div>
+               <div class="d"><p>d</p></div> 
+            <!-- </section> -->
+            <section id="efgh">
+                <section id="efCon">
+                    <div class="e"><p>e</p></div>
+                   <div class="f"><p>f</p></div> 
+                </section>
+                <section id="ghCon">
+                   <div class="g"><p>g</p></div> 
+                   <div class="h"><p>h</p></div> 
+                </section>
             </section>
         </div>
     </main>
     <footer>
-        <p>i</p>
+        <div class="i">
+            <p>i</p>
+        </div>
     </footer>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/breakpoints-js@1.0.6/dist/breakpoints.min.js"></script> -->
 </body>
 </html>
