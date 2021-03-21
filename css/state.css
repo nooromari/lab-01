@@ -63,9 +63,9 @@
         height:250px;
     }
     .i{
+        display: inline-block;
         width:760px ;
         height:150px; 
-        float:right;
     }
     .c{
         float: left;
@@ -73,8 +73,8 @@
     .d{
         float: right;
     }
+    
     div{
         background-color: lightcoral;
     }
-
 }
