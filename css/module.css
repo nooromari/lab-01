@@ -1,0 +1,61 @@
+/* for mobile */
+.a{
+    background-color: rgb(252, 231, 192);
+}
+.b{
+    background-color: rgb(250, 172, 144);
+}
+.c{
+    background-color: rgb(144, 250, 223);
+}
+.d{
+    background-color: rgb(144, 250, 185);
+}
+.e{
+    background-color: rgb(160, 144, 250);
+}
+.f{
+    background-color: rgb(250, 144, 232);
+}
+.g{
+    background-color: rgb(250, 144, 153);
+}
+.h{
+    background-color: rgb(230, 250, 144);
+}
+.i{
+    background-color: rgb(144, 169, 250);
+}
+
+
+
+/* for desktop */
+@media screen and ( min-width: 768px ){
+    .a{
+        background-color: rgb(253, 223, 209);
+    }
+    .b{
+        background-color: rgb(255, 242, 187);
+    }
+    .c{
+        background-color: rgb(210, 252, 183);
+    }
+    .d{
+        background-color: rgb(183, 252, 217);
+    }
+    .e{
+        background-color: rgb(173, 233, 252);
+    }
+    .f{
+        background-color: rgb(205, 172, 248);
+    }
+    .g{
+        background-color: rgb(232, 144, 250);
+    }
+    .h{
+        background-color: rgb(255, 196, 235);
+    }
+    .i{
+        background-color: rgb(255, 184, 184);
+    }
+}
