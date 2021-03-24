@@ -27,7 +27,36 @@
     background-color: rgb(144, 169, 250);
 }
 
-
+/* for tablet */
+@media screen and ( min-width: 480px ){
+    .a{
+        background-color: rgb(204, 198, 198);
+    }
+    .b{
+        background-color: rgb(250, 144, 144);
+    }
+    .c{
+        background-color: rgb(176, 206, 252);
+    }
+    .d{
+        background-color: rgb(252, 253, 166);
+    }
+    .e{
+        background-color: rgb(250, 144, 223);
+    }
+    .f{
+        background-color: rgb(248, 182, 182);
+    }
+    .g{
+        background-color: rgb(253, 252, 160);
+    }
+    .h{
+        background-color: rgb(144, 186, 250);
+    }
+    .i{
+        background-color: rgb(144, 250, 153);
+    }
+}
 
 /* for desktop */
 @media screen and ( min-width: 768px ){
